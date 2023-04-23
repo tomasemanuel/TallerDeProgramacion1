@@ -1,0 +1,20 @@
+[package]
+name = "rfc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk = { git = "https://github.com/gtk-rs/gtk3-rs.git" }
+gio = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "gio" }
+glib = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "glib" }
+
+[[bin]]
+name = "cliente"
+path = "src/ui.rs"
+
+[[bin]]
+name = "server" 
+path = "src/main.rs"
+

@@ -1,0 +1,30 @@
+label.highlight{
+    background-color: lightgrey;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+label.bolded{
+    font-weight: bolder;
+}
+
+.frame{
+    border-width: 0px;
+}
+
+#left_down_box{
+    background-color: lightgray;
+}
+
+.leftside{
+    background-color: rgb(250,250,250);
+}
+
+row.selected{
+	box-shadow: inset 0px 0px 0px 3px black;
+	border-radius: 8px;
+}
+
+label.notif{
+    color: white;
+}
